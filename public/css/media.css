@@ -192,6 +192,15 @@
     max-width: 100%;
     margin-bottom: 30px;
   }
+
+  .form__box-left{
+    max-width: none;
+  }
+
+  .form__box-inner button{
+    float: none;
+    width: 100%;
+  }
 }
 
 @media (max-width: 700px) {
