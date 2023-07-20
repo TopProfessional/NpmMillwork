@@ -242,6 +242,17 @@
     display: block;
   }
 
+  .copy__text{
+    justify-content: normal;
+    flex-direction: column;
+  }
+
+  .copy__text-corp,
+  .copy__text-inst,
+  .copy__text-dev{
+    margin: 10px auto;
+  }
+
 }
 
 @media (max-width: 600px) {
