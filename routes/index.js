@@ -49,14 +49,14 @@ router.post('/contacts', (req, res)=>{
     const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            user: 'isakovd198@gmail.com',
-            pass: 'oiuinpztzwjqglna'
+            user: 'npmmillwork@gmail.com',
+            pass: 'iwgytzsbfzyoxxkq'
         }
     })
 
     const mailOptions = {
         from: req.body.email,
-        to: 'isakovd198@gmail.com',
+        to: 'npmmillwork@gmail.com',
         subject: 'New potential client!',
         text: 
         `
