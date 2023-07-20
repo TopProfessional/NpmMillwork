@@ -903,6 +903,8 @@
     background-color: transparent;
     color: #282828;
     float: right;
+    font-size: 16px;
+    font-weight: bold;
   }
   
   
@@ -921,7 +923,7 @@
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
     padding: 8px 22px 8px 24px;
-    border: 1px solid #ffc222;
+    border: 2px solid #ffc222;
     border-right-width: 20px;
     position: relative;
     z-index: 2;
