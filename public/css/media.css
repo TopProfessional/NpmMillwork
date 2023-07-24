@@ -383,9 +383,14 @@ margin: auto;
 }
 @media (max-width: 970px) {
   .machine-block-1,
-  .machine-block-2 {
+  .machine-block-2{
     max-width: 440px;
     margin: 150px auto 0 auto;
+  }
+  .machine-block-3,
+  .result {
+    max-width: 440px;
+    margin: 0 auto 30px auto;
   }
   .machine-description-1,
   .machine-description-2{
@@ -422,6 +427,7 @@ margin: auto;
     .machine-image-1,
     .machine-image-2 {
       width: 300px;
+      height: 300px;
     }
     .products__title::before,
     .products__title::after {
