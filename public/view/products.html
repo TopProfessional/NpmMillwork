@@ -2,76 +2,108 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="apple-touch-icon" sizes="180x180" href="../favico/apple-touch-icon.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="../favico/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../favico/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../favico/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-	<link rel="stylesheet" href="../splide-4.1.3/dist/css/themes/splide-default.min.css">
-	<link rel="stylesheet" href="../css/style.css">
-	<link rel="stylesheet" href="../css/media.css">
-	<title>npm-millwork</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../splide-4.1.3/dist/css/themes/splide-default.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <title>npm-millwork</title>
 </head>
 
 <body>
 
-	<header class="nav-down">
-		<div class="header__content">
-			<div class="container">
-				<div class="header__content-inner">
-					<div class="header__logo">
-						<a href="/">
-							<img src="../pictures/NPM-logo.png" alt="">
-						</a>
-					</div>
-					<!-- regular menu -->
+    <header class="nav-down">
+        <div class="header__content">
+            <div class="container">
+                <div class="header__content-inner">
+                    <div class="header__logo">
+                        <a href="/">
+                            <img src="../pictures/NPM-logo.png" alt="">
+                        </a>
+                    </div>
+                    <!-- regular menu -->
 
-					<nav class="menu">
-						<div class="header__btn-menu">
-							<span class="icon-bars"></span>
-						</div>
-						<ul>
-							<li class="hover-underline-animation"><a href="/">Home</a></li>
-							<li class="hover-underline-animation"><a href="/about">About</a></li>
-							<li class="hover-underline-animation"><a href="/gallery">Gallery</a></li>
-							<li class="hover-underline-animation"><a href="/manufacture">Manufacture</a></li>
-							<li class="hover-underline-animation"><a href="/products">Products</a></li>
-							<li class="hover-underline-animation"><a href="/contacts">Contacts</a></li>
-							<li class="hover-underline-animation"><a href="/delivery">Assembly and delivery</a></li>
+                    <nav class="menu">
+                        <div class="header__btn-menu">
+                            <span class="icon-bars"></span>
+                        </div>
+                        <ul>
+                            <li class="hover-underline-animation"><a href="/">Home</a></li>
+                            <li class="hover-underline-animation"><a href="/about">About</a></li>
+                            <li class="hover-underline-animation"><a href="/gallery">Gallery</a></li>
+                            <li class="hover-underline-animation"><a href="/manufacture">Manufacture</a></li>
+                            <li class="hover-underline-animation"><a href="/products">Products</a></li>
+                            <li class="hover-underline-animation"><a href="/contacts">Contacts</a></li>
+                            <li class="hover-underline-animation"><a href="/delivery">Assembly and delivery</a></li>
 
-						</ul>
-					</nav>
-					<!-- Hamburger only on mobile version. here and in css '.mobile__menu__btn'-->
+                        </ul>
+                    </nav>
+                    <!-- Hamburger only on mobile version. here and in css '.mobile__menu__btn'-->
 
-					<div id="mobile__menu-btn" onClick="showMenu(true)"><i class="fa fa-bars"></i></div>
+                    <div id="mobile__menu-btn" onClick="showMenu(true)"><i class="fa fa-bars"></i></div>
 
-					<div id="mobile__menu__panel">
-						<i id="mobile__menu__close" class="mobile__menu__close fa fa-angle-left fa-2x" onClick="showMenu(false)"></i>
-						<ul class="mobile__menu">
-							<li class="mobile__menu-item"><a href="/"><i class="fa fa-home fa-2x"></i>Home</a></li>
-							<li class="mobile__menu-item"><a href="/about"><i class="fa fa-users fa-2x"></i>About</a>
-							</li>
-							<li class="mobile__menu-item"><a href="/gallery"><i
-										class="fa-solid fa-image fa-2x"></i>Gallery</a></li>
-							<li class="mobile__menu-item"><a href="/manufacture"><i
-										class="fa-sharp fa-solid fa-gears fa-2x"></i>Manufacture</a></li>
-							<li class="mobile__menu-item"><a href="/products"><i
-										class="fa-solid fa-cubes fa-2x"></i>Products</a></li>
-							<li class="mobile__menu-item"><a href="/contacts"><i
-										class="fa-solid fa-phone fa-2x"></i>Contacts</a></li>
-							<li class="mobile__menu-item"><a href="/delivery"><i
-										class="fa-sharp fa-solid fa-hammer fa-2x"></i>Assembly and delivery</a></li>
-						</ul>
-					</div>
+                    <div id="mobile__menu__panel">
+                        <i id="mobile__menu__close" class="mobile__menu__close fa fa-angle-left fa-2x"
+                            onClick="showMenu(false)"></i>
+                        <ul class="mobile__menu">
+                            <li class="mobile__menu-item"><a href="/"><i class="fa fa-home fa-2x"></i>Home</a></li>
+                            <li class="mobile__menu-item"><a href="/about"><i class="fa fa-users fa-2x"></i>About</a>
+                            </li>
+                            <li class="mobile__menu-item"><a href="/gallery"><i
+                                        class="fa-solid fa-image fa-2x"></i>Gallery</a></li>
+                            <li class="mobile__menu-item"><a href="/manufacture"><i
+                                        class="fa-sharp fa-solid fa-gears fa-2x"></i>Manufacture</a></li>
+                            <li class="mobile__menu-item"><a href="/products"><i
+                                        class="fa-solid fa-cubes fa-2x"></i>Products</a></li>
+                            <li class="mobile__menu-item"><a href="/contacts"><i
+                                        class="fa-solid fa-phone fa-2x"></i>Contacts</a></li>
+                            <li class="mobile__menu-item"><a href="/delivery"><i
+                                        class="fa-sharp fa-solid fa-hammer fa-2x"></i>Assembly and delivery</a></li>
+                        </ul>
+                    </div>
 
-				</div>
-			</div>
-		</div>
-	</header>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <div class="products">
         <div class="container">
@@ -79,47 +111,22 @@
                 Most common products
             </div>
             <div class="products__items">
-                <div class="product__item" id="vanity">
-                    <img class="product__item-photo" src="../pictures/products/vanity.jpg" alt="">
-                    <div class="product__item-description">
-                        <div class="product__item-name">Vanity</div>
-                        Looking for a bathroom vanity that is both stylish and
-                        durable? Look no further than our wood
-                        vanities! Made from solid wood, our vanities are built to last. They come in a variety of styles
-                        to match any bathroom décor, and they can be customized to fit any size space. With our wood
-                        vanities, you can create a bathroom that is both beautiful and functional.
-                    </div>
-                    <div class="product__item-btn">
-                        <a href="/contacts" class="default-btn">
-                            Contact us <i class="default-btn-arrow fa fa-angle-right"></i>
-                        </a>
-                    </div>
 
-                </div>
-                <div class="product__item" id="closet">
-                    <img class="product__item-photo" src="../pictures/products/closet1.jpg" alt="">
-                    <div class="product__item-description">
-                        <div class="product__item-name">Closet</div>
-                        Looking for a closet that is both stylish and durable? Look
-                        no further than our wood closets! Made from solid wood, our closets are built to last. They come
-                        in a variety of styles to match any bedroom décor, and they can be customized to fit any size
-                        space. With our wood closets, you can create a closet that is both beautiful and functional.
-                    </div>
-                    <div class="product__item-btn">
-                        <a href="/contacts" class="default-btn">
-                            Contact us <i class="default-btn-arrow fa fa-angle-right"></i>
-                        </a>
-                    </div>
-                </div>
+            
+
+
+
+
+
+
+
+
+
                 <div class="product__item" id="kitchen">
                     <img class="product__item-photo" src="../pictures/products/kitchen.jpg" alt="">
                     <div class="product__item-description">
                         <div class="product__item-name">Kitchen</div>
-                        If you're looking for a kitchen that is both stylish and
-                        durable, look no further than our wood kitchens! Made from solid wood, our kitchens are built to
-                        last. They come in a variety of styles, from traditional to modern, and they can be customized
-                        to fit any size space. With our wood kitchens, you can create a kitchen that is both beautiful
-                        and functional.
+                        Transforming Kitchens, Crafting Memories: Our Custom Cabinets, Your Perfect Space.
                     </div>
                     <div class="product__item-btn">
                         <a href="/contacts" class="default-btn">
@@ -127,7 +134,131 @@
                         </a>
                     </div>
                 </div>
+
+                <div class="product__item" id="cg">
+                    <img class="product__item-photo" src="../pictures/products/CG.jpg" alt="">
+                    <div class="product__item-description">
+                        <div class="product__item-name">Living room</div>
+                        Crafted Vanity: Elevate Your Space with Timeless Elegance.
+                    </div>
+                    <div class="product__item-btn">
+                        <a href="/contacts" class="default-btn">
+                            Contact us <i class="default-btn-arrow fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product__item" id="closet">
+                    <img class="product__item-photo" src="../pictures/products/closet1.jpg" alt="">
+                    <div class="product__item-description">
+                        <div class="product__item-name">Closet</div>
+                        Custom Closets: Where Organization Meets Craftsmanship.
+                    </div>
+                    <div class="product__item-btn">
+                        <a href="/contacts" class="default-btn">
+                            Contact us <i class="default-btn-arrow fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="product__item" id="wcloset">
+                    <img class="product__item-photo" src="../pictures/products/CW2.jpg" alt="">
+                    <div class="product__item-description">
+                        <div class="product__item-name">Walk in closet</div>
+                        Your Dream Walk-In Closet Awaits, Crafted by Us.
+                    </div>
+                    <div class="product__item-btn">
+                        <a href="/contacts" class="default-btn">
+                            Contact us <i class="default-btn-arrow fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product__item" id="vanity">
+                    <img class="product__item-photo" src="../pictures/products/VFL2.jpg" alt="">
+                    <div class="product__item-description">
+                        <div class="product__item-name">Vanity</div>
+                        Crafted Vanity: Elevate Your Space with Timeless Elegance.
+                    </div>
+                    <div class="product__item-btn">
+                        <a href="/contacts" class="default-btn">
+                            Contact us <i class="default-btn-arrow fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="product__item" id="GC">
+                    <img class="product__item-photo" src="../pictures/products/GC.jpg" alt="">
+                    <div class="product__item-description">
+                        <div class="product__item-name">Garage Cabinets</div>
+                        From Chaos to Order: Maximize Your Garage Space with Our Custom Cabinets.
+                    </div>
+                    <div class="product__item-btn">
+                        <a href="/contacts" class="default-btn">
+                            Contact us <i class="default-btn-arrow fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+
                 <div class="product__item" id="wall">
+                    <img class="product__item-photo" src="../pictures/products/wall1.jpg" alt="">
+                    <div class="product__item-description">
+                        <div class="product__item-name">Wall</div>
+                        Elevate Your Space, One Panel at a Time: Custom Crafted Walls by Us.
+                    </div>
+                    <div class="product__item-btn">
+                        <a href="/contacts" class="default-btn">
+                            Contact us <i class="default-btn-arrow fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product__item" id="SDD">
+                    <img class="product__item-photo" src="../pictures/products/SDD.jpg" alt="">
+                    <div class="product__item-description">
+                        <div class="product__item-name">Custom furniture</div>
+                        We design, produce and also assemble custom hall furniture for the malls, shops and boutiques.
+                    </div>
+                    <div class="product__item-btn">
+                        <a href="/contacts" class="default-btn">
+                            Contact us <i class="default-btn-arrow fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product__item" id="desk">
+                    <img class="product__item-photo" src="../pictures/products/GB.jpg" alt="">
+                    <div class="product__item-description">
+                        <div class="product__item-name">Desks</div>
+                        Office Transformation Starts with Our Sleek Desks.
+                    </div>
+                    <div class="product__item-btn">
+                        <a href="/contacts" class="default-btn">
+                            Contact us <i class="default-btn-arrow fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- <div class="product__item" id="wall">
                     <img class="product__item-photo" src="../pictures/products/wall1.jpg" alt="">
                     <div class="product__item-description">
                         <div class="product__item-name">Wall</div>
@@ -155,11 +286,33 @@
                             Contact us <i class="default-btn-arrow fa fa-angle-right"></i>
                         </a>
                     </div>
-                </div>
+                </div> -->
+
             </div>
         </div>
 
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <footer class="footer">
         <div class="footer__content">
@@ -182,24 +335,22 @@
                         </a>
                         <ul class="footer__list">
                             <li><a class="footer__phone" href="tel:380963092145"><i class="fa fa-solid fa-phone"
-                                        style="color: #ffc222;"></i>(786) 631-7957</a></li>
+                                        style="color: #ffc222;"></i>(786)
+                                    631-7957</a></li>
                             <li><a class="footer__email" href="#"><i class="fa fa-solid fa-envelope"
                                         style="color: #ffc222;"></i>npmmillwork@gmail.com</a></li>
                             <li><a class="footer__adress" href="#"><i class="fa fa-solid fa-location-dot"
-                                        style="color: #ffc222;"></i>12332 SW 131st Ave, Miami, FL 33186</a></li>
+                                        style="color: #ffc222;"></i>12332 SW 131st Ave, Miami, FL
+                                    33186</a></li>
 
                         </ul>
                     </div>
 
                     <!-- Изготовление изысканной мебели из высококачественных материалов -->
-                    <div class="footer__map">                        
+                    <div class="footer__map">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224.78375463781387!2d-80.4069746645574!3d25.653385853261405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9c174c8f7dd4b%3A0x7fac593889b3aef3!2s12332%20SW%20131st%20Ave%2C%20Miami%2C%20FL%2033186!5e0!3m2!1sru!2sus!4v1688320619343!5m2!1sru!2sus"
-                            frameborder="0" 
-                            style="border:0;" 
-                            allowfullscreen="" 
-                            aria-hidden="false" 
-                            height="250px"
+                            frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" height="250px"
                             tabindex="0">
                         </iframe>
                     </div>
@@ -212,9 +363,10 @@
             <div class="container">
                 <div class="copy__text">
                     <div class="copy__text-corp">@ NPM Millwork 2023. All rights reserved.</div>
-                    <a href="https://www.instagram.com/npm_millwork/" class="copy__text-inst"><i class="fa fa-brands fa-instagram"
-                            style="color: #ffffff;"></i>instagram</a href="#">
-                    <a href="https://www.instagram.com/isakov.dev/" class="copy__text-dev">Created by Isakov.Dev</a>
+                    <a href="https://www.instagram.com/npm_millwork/" class="copy__text-inst"><i
+                            class="fa fa-brands fa-instagram" style="color: #ffffff;"></i>instagram</a href="#">
+                    <a href="https://www.instagram.com/isakov.dev/" class="copy__text-dev">Created by
+                        Isakov.Dev</a>
                 </div>
             </div>
         </div>

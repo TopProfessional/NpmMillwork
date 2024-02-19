@@ -2,92 +2,88 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="apple-touch-icon" sizes="180x180" href="../favico/apple-touch-icon.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="../favico/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../favico/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../favico/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-	<link rel="stylesheet" href="../splide-4.1.3/dist/css/themes/splide-default.min.css">
-	<link rel="stylesheet" href="../css/style.css">
-	<link rel="stylesheet" href="../css/media.css">
-	<title>npm-millwork</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../splide-4.1.3/dist/css/themes/splide-default.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <title>npm-millwork</title>
 </head>
 
 <body>
 
-	<header class="nav-down">
-		<div class="header__content">
-			<div class="container">
-				<div class="header__content-inner">
-					<div class="header__logo">
-						<a href="/">
-							<img src="../pictures/NPM-logo.png" alt="">
-						</a>
-					</div>
-					<!-- regular menu -->
+    <header class="nav-down">
+        <div class="header__content">
+            <div class="container">
+                <div class="header__content-inner">
+                    <div class="header__logo">
+                        <a href="/">
+                            <img src="../pictures/NPM-logo.png" alt="">
+                        </a>
+                    </div>
+                    <!-- regular menu -->
 
-					<nav class="menu">
-						<div class="header__btn-menu">
-							<span class="icon-bars"></span>
-						</div>
-						<ul>
-							<li class="hover-underline-animation"><a href="/">Home</a></li>
-							<li class="hover-underline-animation"><a href="/about">About</a></li>
-							<li class="hover-underline-animation"><a href="/gallery">Gallery</a></li>
-							<li class="hover-underline-animation"><a href="/manufacture">Manufacture</a></li>
-							<li class="hover-underline-animation"><a href="/products">Products</a></li>
-							<li class="hover-underline-animation"><a href="/contacts">Contacts</a></li>
-							<li class="hover-underline-animation"><a href="/delivery">Assembly and delivery</a></li>
+                    <nav class="menu">
+                        <div class="header__btn-menu">
+                            <span class="icon-bars"></span>
+                        </div>
+                        <ul>
+                            <li class="hover-underline-animation"><a href="/">Home</a></li>
+                            <li class="hover-underline-animation"><a href="/about">About</a></li>
+                            <li class="hover-underline-animation"><a href="/gallery">Gallery</a></li>
+                            <li class="hover-underline-animation"><a href="/manufacture">Manufacture</a></li>
+                            <li class="hover-underline-animation"><a href="/products">Products</a></li>
+                            <li class="hover-underline-animation"><a href="/contacts">Contacts</a></li>
+                            <li class="hover-underline-animation"><a href="/delivery">Assembly and delivery</a></li>
 
-						</ul>
-					</nav>
-					<!-- Hamburger only on mobile version. here and in css '.mobile__menu__btn'-->
+                        </ul>
+                    </nav>
+                    <!-- Hamburger only on mobile version. here and in css '.mobile__menu__btn'-->
 
-					<div id="mobile__menu-btn" onClick="showMenu(true)"><i class="fa fa-bars"></i></div>
+                    <div id="mobile__menu-btn" onClick="showMenu(true)"><i class="fa fa-bars"></i></div>
 
-					<div id="mobile__menu__panel">
-						<i id="mobile__menu__close" class="mobile__menu__close fa fa-angle-left fa-2x" onClick="showMenu(false)"></i>
-						<ul class="mobile__menu">
-							<li class="mobile__menu-item"><a href="/"><i class="fa fa-home fa-2x"></i>Home</a></li>
-							<li class="mobile__menu-item"><a href="/about"><i class="fa fa-users fa-2x"></i>About</a>
-							</li>
-							<li class="mobile__menu-item"><a href="/gallery"><i
-										class="fa-solid fa-image fa-2x"></i>Gallery</a></li>
-							<li class="mobile__menu-item"><a href="/manufacture"><i
-										class="fa-sharp fa-solid fa-gears fa-2x"></i>Manufacture</a></li>
-							<li class="mobile__menu-item"><a href="/products"><i
-										class="fa-solid fa-cubes fa-2x"></i>Products</a></li>
-							<li class="mobile__menu-item"><a href="/contacts"><i
-										class="fa-solid fa-phone fa-2x"></i>Contacts</a></li>
-							<li class="mobile__menu-item"><a href="/delivery"><i
-										class="fa-sharp fa-solid fa-hammer fa-2x"></i>Assembly and delivery</a></li>
-						</ul>
-					</div>
+                    <div id="mobile__menu__panel">
+                        <i id="mobile__menu__close" class="mobile__menu__close fa fa-angle-left fa-2x"
+                            onClick="showMenu(false)"></i>
+                        <ul class="mobile__menu">
+                            <li class="mobile__menu-item"><a href="/"><i class="fa fa-home fa-2x"></i>Home</a></li>
+                            <li class="mobile__menu-item"><a href="/about"><i class="fa fa-users fa-2x"></i>About</a>
+                            </li>
+                            <li class="mobile__menu-item"><a href="/gallery"><i
+                                        class="fa-solid fa-image fa-2x"></i>Gallery</a></li>
+                            <li class="mobile__menu-item"><a href="/manufacture"><i
+                                        class="fa-sharp fa-solid fa-gears fa-2x"></i>Manufacture</a></li>
+                            <li class="mobile__menu-item"><a href="/products"><i
+                                        class="fa-solid fa-cubes fa-2x"></i>Products</a></li>
+                            <li class="mobile__menu-item"><a href="/contacts"><i
+                                        class="fa-solid fa-phone fa-2x"></i>Contacts</a></li>
+                            <li class="mobile__menu-item"><a href="/delivery"><i
+                                        class="fa-sharp fa-solid fa-hammer fa-2x"></i>Assembly and delivery</a></li>
+                        </ul>
+                    </div>
 
-				</div>
-			</div>
-		</div>
-	</header>
+                </div>
+            </div>
+        </div>
+    </header>
 
     <div class="about">
         <div class="footer__container">
-            <img class="about__banner" src="../pictures/banner1.jpg" />
+            <img class="about__banner" src="../pictures/3012.jpg" />
             <div class="about__text-intro">
-                <b>NPM Millwork Inc.</b> We are a Miami-based millwork company that specializes in the manufacture of
-                high-quality
-                cabinets.
-                The company's shareholders have a long history of working with wood, having previously owned their own
-                sawmill
-                in Ukraine. A combination of European (Ukraine, German, Italian, and Spanish) and American furniture
-                manufacturing
-                experience gives to us a unique perspective on the furniture industry, and allows them to offer their
-                customers a wide range of high-quality products. We are committed to ours reputation and goes above
-                and beyond to ensure that every customer is
-                satisfied. The company has a customer satisfaction rating of 98%.
+                <b>NPM Millwork Inc.</b> Is a Miami-based millwork company specializing in the manufacture of
+                high-quality cabinets. Our shareholders have a rich history of working with wood, having previously
+                owned their own sawmill in Europe. With a blend of European and American furniture manufacturing
+                experience, we bring a unique perspective to the industry, allowing us to offer our customers a diverse
+                range of high-quality products. We are deeply committed to our reputation and go above and beyond to
+                ensure every customer is satisfied.
             </div>
         </div>
         <!-- <br><br> -->
@@ -95,20 +91,22 @@
             <div class="footer__container">
                 <div class="about__text-container">
                     <div class="about__text-column">
-                        For our wooden products we uses only the finest materials in the construction of its cabinets,
+                        <!-- For our wooden products we uses only the finest materials in the construction of its cabinets,
                         including solid wood,
                         veneers,
                         and
                         high-quality hardware. Our's cabinets are made to order, so customers can choose the exact
                         style,
                         finish,
-                        and features that they want.
+                        and features that they want. -->
+                        Our's cabinets are made to order, so customers can choose the exact style, colors, finish, and
+                        features that they want.
                         <!-- <div> -->
                         <img class="about__pin" src="../pictures/pin.png" alt="">
                         <!-- </div> -->
                     </div>
                     <div class="about__text-column">
-                        NPM Millwork offers a wide range of cabinet styles, from traditional to contemporary. The
+                        <!-- NPM Millwork offers a wide range of cabinet styles, from traditional to contemporary. The
                         company
                         also has a
                         team of
@@ -120,11 +118,14 @@
                         decorative materials, saunas and pool lining, and molding, etc. The company can also provide
                         custom
                         millwork
-                        solutions for specific projects.
+                        solutions for specific projects. -->
+                        NPM Millwork also manufactures other millwork products, such as doors, wall cladding with
+                        decorative materials, saunas and pool lining, and molding, etc. The company can also provide
+                        custom millwork solutions for specific projects.
                         <img class="about__pin" src="../pictures/pin.png" alt="">
                     </div>
                     <div class="about__text-column">
-                        NPM Millwork is committed to providing its customers with the highest quality products and
+                        <!-- NPM Millwork is committed to providing its customers with the highest quality products and
                         service.
                         The
                         company
@@ -134,7 +135,8 @@
                         If you are looking for high-quality cabinets, NPM Millwork is the company to call. The company
                         always
                         provides
-                        excellent products and service to customers.
+                        excellent products and service to customers. -->
+                        It is a company that performs a complete list of production, installation and maintenance  
                         <img class="about__pin" src="../pictures/pin.png" alt="">
                     </div>
                 </div>
@@ -155,11 +157,13 @@
             <div class="about__list-block">
                 Here are some of the benefits of choosing NPM Millwork:
                 <ul class="about__list">
-                    <li>High-quality materials</li>
-                    <li>Made to order</li>
-                    <li>Wide range of styles</li>
-                    <li>Creative designers</li>
-                    <li>Experienced craftsmen</li>
+                    <li>We exclusively use high-quality materials that offer the best Price/Quality ratio.</li>
+                    <li>We offer a diverse range of styles to suit every taste and preference.</li>
+                    <li>We have a team of skilled designers ready to collaborate with you on creating the cabinets you've always envisioned.</li>
+                    <li>We have skilled craftsmen with years of experience.</li>
+                    <li>Every order is crafted with meticulous care and attention, ensuring it's unique and tailored just for you.</li>
+                    <li>We always handle delivery, assembly, and installation for your convenience.</li>
+                    <li>We ensure transparent production deadlines for all our projects.</li>
                 </ul>
             </div>
 
@@ -213,14 +217,10 @@
                     </div>
 
                     <!-- Изготовление изысканной мебели из высококачественных материалов -->
-                    <div class="footer__map">                        
+                    <div class="footer__map">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224.78375463781387!2d-80.4069746645574!3d25.653385853261405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9c174c8f7dd4b%3A0x7fac593889b3aef3!2s12332%20SW%20131st%20Ave%2C%20Miami%2C%20FL%2033186!5e0!3m2!1sru!2sus!4v1688320619343!5m2!1sru!2sus"
-                            frameborder="0" 
-                            style="border:0;" 
-                            allowfullscreen="" 
-                            aria-hidden="false" 
-                            height="250px"
+                            frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" height="250px"
                             tabindex="0">
                         </iframe>
                     </div>
@@ -233,8 +233,8 @@
             <div class="container">
                 <div class="copy__text">
                     <div class="copy__text-corp">@ NPM Millwork 2023. All rights reserved.</div>
-                    <a href="https://www.instagram.com/npm_millwork/" class="copy__text-inst"><i class="fa fa-brands fa-instagram"
-                            style="color: #ffffff;"></i>instagram</a href="#">
+                    <a href="https://www.instagram.com/npm_millwork/" class="copy__text-inst"><i
+                            class="fa fa-brands fa-instagram" style="color: #ffffff;"></i>instagram</a href="#">
                     <a href="https://www.instagram.com/isakov.dev/" class="copy__text-dev">Created by Isakov.Dev</a>
                 </div>
             </div>
