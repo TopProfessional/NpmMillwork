@@ -37,7 +37,8 @@ video {
   font-weight: 700;
   text-transform: uppercase;
   color: white;
-  max-width: 623px;
+  /* max-width: 623px; */
+  max-width: 777px;
   margin-top: 30vh;
 }
 
@@ -58,7 +59,12 @@ video {
 #closet,
 #kitchen,
 #wall,
-#shelf {
+#shelf,
+#cg,
+#wcloset,
+#GC,
+#SDD,
+#desk {
   scroll-margin-top: 110px;
 }
 
@@ -427,6 +433,7 @@ header {
   font-size: 35px;
   height: 100%;
   transition: all .3s ease-in-out;
+  line-height: 35px;
 }
 
 .home__ctgrs-word:hover {
@@ -772,6 +779,7 @@ header {
 .form__inner {
   padding-bottom: 40px;
   background-image: url(../pictures/dude.jpg);
+  /* background-image: url(../pictures/bro.jpg); */
   min-height: 460px;
   background-repeat: no-repeat;
   background-position: bottom right;
